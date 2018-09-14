@@ -2,7 +2,7 @@
 #include <vector>
 #include <map>
 
-// Compile arguments: g++ -std=c++11 filename.cpp
+// COMPILE ARGUMENTS: g++ -std=c++11 filename.cpp
 
 struct Node{
   // ID of the node

@@ -23,10 +23,9 @@ int main (void) {
 
 
   std::vector<int> d(1,1000);
-  c.push(0);
 
-  for (std::vector<int> it = c.begin(); it != c.end(); ++it) {
-    std::cout << std::endl;; << *it;
+  for (std::vector<int>::iterator it = c.begin(); it != c.end(); ++it) {
+    std::cout << std::endl << *it;
   }
 
 
